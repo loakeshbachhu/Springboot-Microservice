@@ -12,15 +12,15 @@
 	<artifactId>service-registry</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>service-registry</name>
-	<description>Demo project for Spring Boot</description>
+	<description>service-registry</description>
 	<properties>
 		<java.version>11</java.version>
-		<spring-cloud.version>Hoxton.SR8</spring-cloud.version>
+		<spring-cloud.version>2020.0.3</spring-cloud.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
 		</dependency>
 
 		<dependency>
